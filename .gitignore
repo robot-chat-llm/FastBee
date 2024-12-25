@@ -1,40 +1,16 @@
-######################################################################
 # Build Tools
 .yml
 .gradle
-/build/
-!gradle/wrapper/gradle-wrapper.jar
-
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-######################################################################
-# IDE
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-
+build
+target
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-../.idea
 
-### NetBeans ###
-nbproject/private/
-build/*
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+### docker ###
 
-######################################################################
 # Others
 *.log
 *.xml.versionsBackup
